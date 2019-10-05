@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Ejercicio04-porcentaje-texto</title>
+    <style>
+    
+    html{font-size: 18px;}
+    section{font-size: 100%;}
+    span{font-size: 200%;}
+    /*Flexbox => necesitas elemento padre e hijos*/
+.articulos{
+            display: flex;
+            width: 100% /*No es necesario especificar*/}
+article{
+    width: 50%;
+    height: 300px;
+    background-color: pink;}
+
+footer{color: springgreen;} 
+.main-container{
+    max-width: 900px;/*Ancho Máximo*/
+    width: 100%;
+    /*Centrado Elemento en Bloque*/
+   /* margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto;/*Centrado en una sola linea de código*/
+    background-color: deeppink;
+}   
+    </style>
+</head>
+<body>
+<!-- Unidad de Medida = porcentaje(%) para textos -->
+<section>Centro de Entrenamiento<span> Devmaster</span></section>  
+
+<!-- Unidad de Medida para Elementos -->
+<section class="articulos">
+<article>Artículo 1</article>
+<article>Artículo 2</article>
+
+</section> 
+
+<footer>
+    
+    <div class="main-container">
+        <p>Devmaster 2019 | Todos los derechos reservados ©</p></div>
+    
+</footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+
+    <title>Ejercicio10</title>
+    <style>
+  /*Raiz =<html> - :root(Pseudoclase)*/
+    :root{
+        /*crear variables para los colores (nombre cualquiera)*/
+            --primary-color:#FF2B45;
+            --secondary-color:hsl(240,2%,10%);
+            --third-color:rgba(238,209,11,1);
+
+            /*background*/
+            --primary-background: #FFF9EA;
+
+            /*typo*/
+            --primary-font:'Notable', sans-serif;
+    }    
+    h1{
+        color: var(--primary-color);
+        font-family: var(--primary-font);
+        letter-spacing: 3px;
+
+    }
+    
+    
+    
+    p{
+        color: var(--secondary-color);
+        background-color: var(--primary-background);}
+        
+    span{color: var(--third-color);}
+    
+    
+    
+    </style>
+</head>
+<body>
+    <h1>Devmaster</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore non odio? Alias ratione iste, commodi, itaque officiis neque fugiat similique est quod pariatur, sit laborum voluptatibus vel dicta facilis!</p>
+    <span>Lorem</span>
+</body>
+</html>
